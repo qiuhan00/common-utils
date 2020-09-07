@@ -8,7 +8,7 @@ import org.springframework.stereotype.Component;
 import cn.hutool.core.lang.Assert;
 
 /**
- * @description 
+ * @description spring上下文工具，实现ApplicationContextAware，在spring初始化过程中，会执行setApplicationContext方法去设置上下文环境
  * @author cfang 2020年9月1日
  */
 @Component
